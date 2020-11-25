@@ -9,17 +9,11 @@ Get a free trial license from https://www.dynamsoft.com/customer/license/trialLi
 
 ## Usage
 
-Build the source code:
-
-```
-g++ -o barcodereader BarcodeReader.cpp -L./ -lDynamsoftBarcodeReader -Wl,-rpath
-```
-
 Test image
 
 ![barcode image](test.jpg)
 
-Run the app on `Intel-based Macbook Air`:
+Build and run the app on `Intel-based Macbook Air`:
 
 ```
 % sysctl -n machdep.cpu.brand_string
@@ -29,6 +23,8 @@ Intel(R) Core(TM) i7-5650U CPU @ 2.20GHz
 ProductName:    Mac OS X
 ProductVersion: 10.15.6
 BuildVersion:   19G73
+
+% g++ -o barcodereader BarcodeReader.cpp -L./ -lDynamsoftBarcodeReader -Wl,-rpath
 
 % ./barcodereader test.jpg
 CPU threads: 4
@@ -44,7 +40,7 @@ Thread count: 4. Total barcode(s) found: 31. Time cost: 479 ms
 Multi-thread best performance: thread_count = 1, timecost = 426
 ```
 
-Copy the app to `Apple silicon–based Macbook Air`:
+Build and run the app on `Apple silicon–based Macbook Air`:
 
 ```
 % sysctl -n machdep.cpu.brand_string
@@ -54,6 +50,8 @@ Apple processor
 ProductName:    macOS
 ProductVersion: 11.0
 BuildVersion:   20A2411
+
+% g++ -target x86_64-apple-macos10.9 -o barcodereader BarcodeReader.cpp -L./ -lDynamsoftBarcodeReader
 
 % ./barcodereader test.jpg
 CPU threads: 8
