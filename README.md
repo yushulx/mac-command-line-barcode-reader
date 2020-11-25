@@ -24,7 +24,7 @@ ProductName:    Mac OS X
 ProductVersion: 10.15.6
 BuildVersion:   19G73
 
-% g++ -o barcodereader BarcodeReader.cpp -L./ -lDynamsoftBarcodeReader -Wl,-rpath
+% g++ -o barcodereader BarcodeReader.cpp -L./ -lDynamsoftBarcodeReader
 
 % ./barcodereader test.jpg
 CPU threads: 4
