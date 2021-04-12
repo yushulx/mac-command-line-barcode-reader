@@ -29,13 +29,13 @@ BuildVersion:   19G73
 % ./barcodereader test.jpg
 CPU threads: 4
 
-Thread count: 1. Total barcode(s) found: 31. Time cost: 426 ms
+Thread count: 1. Total barcode(s) found: 49. Time cost: 426 ms
 
-Thread count: 2. Total barcode(s) found: 31. Time cost: 505 ms
+Thread count: 2. Total barcode(s) found: 49. Time cost: 505 ms
 
-Thread count: 3. Total barcode(s) found: 31. Time cost: 483 ms
+Thread count: 3. Total barcode(s) found: 49. Time cost: 483 ms
 
-Thread count: 4. Total barcode(s) found: 31. Time cost: 479 ms
+Thread count: 4. Total barcode(s) found: 49. Time cost: 479 ms
 
 Multi-thread best performance: thread_count = 1, timecost = 426
 ```
@@ -56,21 +56,21 @@ BuildVersion:   20A2411
 % ./barcodereader test.jpg
 CPU threads: 8
 
-Thread count: 1. Total barcode(s) found: 31. Time cost: 291 ms
+Thread count: 1. Total barcode(s) found: 49. Time cost: 291 ms
 
-Thread count: 2. Total barcode(s) found: 31. Time cost: 302 ms
+Thread count: 2. Total barcode(s) found: 49. Time cost: 302 ms
 
-Thread count: 3. Total barcode(s) found: 31. Time cost: 300 ms
+Thread count: 3. Total barcode(s) found: 49. Time cost: 300 ms
 
-Thread count: 4. Total barcode(s) found: 31. Time cost: 298 ms
+Thread count: 4. Total barcode(s) found: 49. Time cost: 298 ms
 
-Thread count: 5. Total barcode(s) found: 31. Time cost: 301 ms
+Thread count: 5. Total barcode(s) found: 49. Time cost: 301 ms
 
-Thread count: 6. Total barcode(s) found: 31. Time cost: 297 ms
+Thread count: 6. Total barcode(s) found: 49. Time cost: 297 ms
 
-Thread count: 7. Total barcode(s) found: 31. Time cost: 298 ms
+Thread count: 7. Total barcode(s) found: 49. Time cost: 298 ms
 
-Thread count: 8. Total barcode(s) found: 31. Time cost: 298 ms
+Thread count: 8. Total barcode(s) found: 49. Time cost: 298 ms
 
 Multi-thread best performance: thread_count = 1, timecost = 291
 ```
