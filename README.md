@@ -1,11 +1,9 @@
 # Command-line Barcode Reader for macOS
 The sample is implemented using [Dynamsoft Barcode Reader SDK](https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx).
 
-## Download
-[Dynamsoft Barcode Reader v7.6 for macOS](https://www.dynamsoft.com/handle-download?productId=1000003&productVersionId=1000354&productEditionId=1000006&downloadLink=https://download2.dynamsoft.com/dbr/dbr-mac-7.6.zip)
-
-## Trial License
-Get a free trial license from https://www.dynamsoft.com/customer/license/trialLicense.
+## What You Should Know
+- [![](https://img.shields.io/badge/Download-Offline%20SDK-orange)](https://www.dynamsoft.com/barcode-reader/downloads)
+- [![](https://img.shields.io/badge/Get-30--day%20FREE%20Trial%20License-blue)](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr)
 
 ## Usage
 
